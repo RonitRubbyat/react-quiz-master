@@ -5,25 +5,25 @@ import icon from './Icon.ico'
 
 const Header = () => {
     return (
-        <nav id='navLink' class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <NavLink class="navbar-brand d-flex justify-content-center align-items-center" to={'/'}>
-                    <img src={icon} alt="Logo" width="30" height="24" class="d-inline-block align-text-top" />
+        <nav className="navbar navbar-expand-lg">
+            <div className="container-fluid">
+                <NavLink className={"navbar-brand d-flex justify-content-center align-items-center"} to={'/'}>
+                    <img src={icon} alt="Logo" width="30" height="24" className="d-inline-block align-text-top" />
                         <h3 className='ms-1'>Quiz Master</h3>
                 </NavLink>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <NavLink class="nav-link active" aria-current="page" to={"/"}>Home</NavLink>
+                <div className="collapse navbar-collapse" id="navbarNav">
+                    <ul id='navLink' className="navbar-nav ms-auto">
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to={"/"}>Home</NavLink>
                         </li>
-                        <li class="nav-item">
-                            <NavLink class="nav-link" to={"/blogs"}>Blogs</NavLink>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to={"/blogs"}>Blogs</NavLink>
                         </li>
-                        <li class="nav-item">
-                            <NavLink class="nav-link" to={"/about"}>About us</NavLink>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to={"/about"}>About us</NavLink>
                         </li>
                     </ul>
                 </div>

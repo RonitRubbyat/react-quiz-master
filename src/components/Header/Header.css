@@ -8,6 +8,10 @@
     text-decoration: 2px underline orangered;
 }
 
+#nav-header.active{
+    text-decoration: none;
+}
+
 @media screen and (max-width: 997px) {
     #navLink a{
         margin-right: auto;
