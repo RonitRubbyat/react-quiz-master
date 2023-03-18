@@ -1,0 +1,15 @@
+#navLink a{
+    text-decoration: none;
+    color: black;
+    margin-right: 21px;
+}
+
+#navLink a.active{
+    text-decoration: 2px underline orangered;
+}
+
+@media screen and (max-width: 997px) {
+    #navLink a{
+        margin-right: auto;
+    }
+}
