@@ -4,8 +4,8 @@ import './Options.css'
 const Options = ({ option, correctAnswer }) => {
     // console.log(option);
     let [isCorrect, setIsCorrect] = useState('');
-    const handelOp = ()=>{
-        isCorrect = option === correctAnswer ? 'green': 'red';
+    const handelOp = () => {
+        isCorrect = option === correctAnswer ? 'green' : 'red';
         setIsCorrect(isCorrect);
     }
     return (

@@ -2,7 +2,7 @@ import React from 'react';
 import Options from '../Options/Options';
 
 const Quiz = ({ questionObj }) => {
-    const { id, question, options, correctAnswer } = questionObj;
+    const { question, options, correctAnswer } = questionObj;
 
     // modifying question data
 
